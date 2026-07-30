@@ -1,8 +1,19 @@
 aid: kodiak-robotics
 name: Kodiak Robotics
-description: 'Kodiak Robotics is a company surfaced as a portfolio company of crv and added to the API
-  Evangelist network as a stub for enrichment. Sector: autonomous-vehicles. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Kodiak Robotics, which now operates publicly as Kodiak AI, is an autonomous
+  vehicle company founded in April 2018 by CEO Don Burnette and headquartered in California
+  with a Texas operations center. Its flagship product is the Kodiak Driver, an AI-driven
+  autonomy system that pairs onboard artificial intelligence with modular, swappable
+  sensor hardware and offboard services so that a single driverless stack can be carried
+  across different vehicle platforms. The company sells into three markets — long-haul
+  trucking, defense, and industrial ground transportation — and positions driverless
+  operation as a safety improvement, citing that more than 85% of U.S. truck crashes
+  are caused by human error. Kodiak reports more than 2.6 million autonomous miles
+  driven and over 7,000 loads delivered. Kodiak publishes no public developer API,
+  API documentation, developer portal, or SDKs; enrichment probes of kodiak.ai found
+  no /.well-known/ discovery documents and no api/docs/developer subdomains. It does
+  publish an llms.txt, an RSS news feed, and a corporate safety report, so this profile
+  is maintained as a company record rather than an API producer profile.'
 url: https://raw.githubusercontent.com/api-evangelist/kodiak-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +21,35 @@ x-backed-by:
 - crv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
+x-api-surface-note: Enriched 2026-07-19; no public API, developer portal, docs, or
+  SDK surface found on kodiak.ai.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://images.prismic.io/kodiak/970b4048-fba9-4aed-b149-719ba24de0f1_preview.png?auto=format%2Ccompress&rect=0%2C0%2C2400%2C1260&w=1200&h=630
 tags:
 - Company
 - Autonomous Vehicles
+- Autonomous Trucking
+- Self-Driving
+- Artificial Intelligence
+- Robotics
+- Freight
+- Logistics
+- Transportation
+- Defense
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +59,34 @@ maintainers:
 common:
 - type: Website
   url: https://kodiak.ai/
+- type: Blog
+  url: https://kodiak.ai/news
+- type: BlogRSS
+  url: https://kodiak.ai/feed.xml
+- type: Support
+  url: https://kodiak.ai/contact
+- type: TermsOfService
+  url: https://kodiak.ai/terms-of-use
+- type: PrivacyPolicy
+  url: https://kodiak.ai/privacy-policy
+- type: Careers
+  url: https://kodiak.ai/careers
+- type: Investors
+  url: https://investors.kodiak.ai/
+- type: Technology
+  url: https://kodiak.ai/technology
+- type: Company
+  url: https://kodiak.ai/company
+- type: Media
+  url: https://kodiak.ai/media
+- type: Safety
+  url: https://kodiak.ai/safety
+- type: LLMsTxt
+  url: llms/kodiak-robotics-llms.txt
+- type: DomainSecurity
+  url: security/kodiak-robotics-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
