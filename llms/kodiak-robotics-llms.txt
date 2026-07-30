@@ -1,0 +1,27 @@
+# Kodiak AI
+
+> Kodiak AI, formerly known as Kodiak Robotics, is developing self-driving technology for freight trucks. The company focuses on autonomous trucking solutions for long-haul freight transportation.
+
+## Company Information
+
+Kodiak is pioneering autonomous trucking technology to make roads safer and freight transportation more efficient. The company operates autonomous semi-trucks on freight routes.
+
+## Key Pages
+
+- Homepage: https://kodiak.ai/
+- News & Updates: https://kodiak.ai/news
+- Technology: https://kodiak.ai/technology
+- About Kodiak: https://kodiak.ai/about
+- Careers: https://kodiak.ai/careers
+- Media Resources: https://kodiak.ai/media
+- Safety: https://kodiak.ai/safety
+
+## Contact
+
+For media inquiries, partnership opportunities, or general questions, please visit our website at https://kodiak.ai.
+
+## Robots
+
+For web crawlers, see our robots.txt at https://kodiak.ai/robots.txt
+For sitemap, see https://kodiak.ai/sitemap.xml
+For RSS feed, see https://kodiak.ai/feed.xml

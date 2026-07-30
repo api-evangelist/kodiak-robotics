@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://kodiak.ai/.well-known/*
+host: https://kodiak.ai
+notes: >-
+  No /.well-known/ discovery documents are published. Every probed path returns
+  the site's 404 page (SPA soft-404, HTTP 404). Recorded as a negative result so
+  future runs do not re-probe blindly. No WellKnown/SecurityTxt pointer is wired
+  into apis.yml because nothing was found.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+other_probes:
+- path: /llms.txt
+  status: 200
+  file: ../llms/kodiak-robotics-llms.txt
+- path: /robots.txt
+  status: 200
+- path: /sitemap.xml
+  status: 200
+- path: /feed.xml
+  status: 200
