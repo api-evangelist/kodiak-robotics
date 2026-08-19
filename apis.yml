@@ -35,7 +35,7 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 image: https://images.prismic.io/kodiak/970b4048-fba9-4aed-b149-719ba24de0f1_preview.png?auto=format%2Ccompress&rect=0%2C0%2C2400%2C1260&w=1200&h=630
