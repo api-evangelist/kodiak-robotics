@@ -24,6 +24,17 @@ x-tier-reason: portfolio-lead
 x-api-surface: none
 x-api-surface-note: Enriched 2026-07-19; no public API, developer portal, docs, or
   SDK surface found on kodiak.ai.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
